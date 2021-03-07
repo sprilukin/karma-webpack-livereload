@@ -1,0 +1,17 @@
+{
+  "name": "karma-webpack-livereload-sample",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "karma start",
+    "single": "karma start --single-run"
+  },
+  "dependencies": {
+    "karma": "^6.1.1",
+    "karma-cli": "^2.0.0",
+    "karma-jasmine": "^4.0.1",
+    "karma-jasmine-html-reporter": "^1.5.4",
+    "karma-webpack": "^5.0.0",
+    "karma-webpack-livereload": "link:../",
+    "webpack": "^5.24.3"
+  }
+}
