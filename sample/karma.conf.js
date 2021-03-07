@@ -1,29 +1,27 @@
-module.exports = function (config) {
-    config.set({
-        frameworks: ['jasmine', 'webpack'],
+module.exports = (config) => {
+  config.set({
+    frameworks: ['jasmine', 'webpack'],
 
-        files: [
-            {pattern: 'src/*.tests.js', watched: false}
-        ],
+    files: [{ pattern: 'src/*.tests.js', watched: false }],
 
-        reporters: ['kjhtml'],
+    reporters: ['kjhtml'],
 
-        preprocessors: {
-            'src/*.tests.js': ['webpack', 'webpack-livereload']
-        },
+    preprocessors: {
+      'src/*.tests.js': ['webpack', 'webpack-livereload'],
+    },
 
-        webpackLivereload: {
-            enabled: true,
-            reporters: ['kjhtml']
-        },
+    webpackLivereload: {
+      enabled: true,
+      reporters: ['kjhtml'],
+    },
 
-        webpack: {},
+    webpack: {},
 
-        plugins: [
-            "karma-jasmine",
-            "karma-jasmine-html-reporter",
-            "karma-webpack",
-            "karma-webpack-livereload"
-        ]
-    });
+    plugins: [
+      'karma-jasmine',
+      'karma-jasmine-html-reporter',
+      'karma-webpack',
+      'karma-webpack-livereload',
+    ],
+  });
 };
