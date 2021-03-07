@@ -80,11 +80,9 @@ In order to test this sample follow these steps:
 - checkout source code: `git clone git@github.com:sprilukin/karma-webpack-livereload.git`
 - execute:
   ```shell
-  cd karma-webpack-livereload
-  yarn install
-  cd sample
-  yarn install
-  yarn run test
+  cd karma-webpack-livereload/sample
+  npm install
+  npm run test
   ```
 - open the following url in the browser: [http://localhost:9876/]()
 - try to edit `karma-webpack-livereload/sample/src/moduleToTest.tests.js` and do simple change:
