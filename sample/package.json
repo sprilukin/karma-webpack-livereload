@@ -11,7 +11,7 @@
     "karma-jasmine": "^4.0.1",
     "karma-jasmine-html-reporter": "^1.5.4",
     "karma-webpack": "^5.0.0",
-    "karma-webpack-livereload": "^0.0.1",
+    "karma-webpack-livereload": "^0.0.4",
     "webpack": "^5.24.3"
   }
 }

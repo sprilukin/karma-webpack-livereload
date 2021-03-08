@@ -1,9 +1,7 @@
 name: npm-publish
 on:
-  push:
-    branches: [ 'main' ]
-  #release:
-  #  types: [created]
+  release:
+    types: [created]
 jobs:
   npm-publish:
     name: npm-publish
@@ -13,11 +11,9 @@ jobs:
       # Setup .npmrc file to publish to npm
       - uses: actions/setup-node@v2
         with:
-          node-version: '12.x'
+          node-version: '14.x'
           registry-url: 'https://registry.npmjs.org'
-      - run: ls -alF
-      - run: cat .npmrc
-      #- run: npm install
-      #- run: npm publish
+      - run: npm install
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
