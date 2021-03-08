@@ -1,3 +1,5 @@
+![lint](https://github.com/sprilukin/karma-webpack-livereload/actions/workflows/lint.yml/badge.svg)
+
 # Karma Webpack Livereload
 Livereload extension for `karma-webpack` which is useful for different html reporters like `karma-jasmine-html-reporter`.
 
