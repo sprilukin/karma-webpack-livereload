@@ -1,7 +1,9 @@
 name: npm-publish
 on:
-  release:
-    types: [created]
+  push:
+    branches: [ 'main' ]
+  #release:
+  #  types: [created]
 jobs:
   npm-publish:
     name: npm-publish
@@ -13,7 +15,9 @@ jobs:
         with:
           node-version: '14.x'
           registry-url: 'https://registry.npmjs.org'
-      - run: npm install
-      - run: npm publish
+      - run: ls -alF
+      - run: cat .npmrc
+      #- run: npm install
+      #- run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
