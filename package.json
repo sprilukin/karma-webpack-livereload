@@ -1,6 +1,6 @@
 {
   "name": "karma-webpack-livereload",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Livereload plugin for karma-webpack",
   "license": "MIT",
   "author": "Sergey Prilukin",
@@ -12,7 +12,8 @@
     "node": ">= 10"
   },
   "scripts": {
-    "lint": "eslint lib sample --fix"
+    "lint": "eslint lib sample",
+    "lint-fix": "eslint lib sample --fix"
   },
   "files": [
     "lib"
@@ -22,11 +23,11 @@
     "webpack": "^5.0.0"
   },
   "dependencies": {
-    "eslint": "^7.21.0",
     "webpack-dev-server": "^3.11.2"
   },
   "devDependencies": {
     "@webpack-contrib/eslint-config-webpack": "^3.0.0",
+    "eslint": "^7.21.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prettier": "^3.3.1",
     "prettier": "^2.2.1",
