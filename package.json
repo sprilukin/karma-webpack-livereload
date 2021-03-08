@@ -1,6 +1,6 @@
 {
   "name": "karma-webpack-livereload",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Livereload plugin for karma-webpack",
   "license": "MIT",
   "author": "Sergey Prilukin",
