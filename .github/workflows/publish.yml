@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm install
-      - run: npm lint
+      - run: npm run lint
   npm-publish:
     name: npm-publish
     needs: lint
