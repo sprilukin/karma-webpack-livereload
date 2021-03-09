@@ -13,7 +13,7 @@
   </a>
 
   <h1>
-    <img width="35" height="35" style="padding-top: 7px" src="https://worldvectorlogo.com/logos/karma.svg" alt="karma" />
+    <img width="30" height="30" src="https://worldvectorlogo.com/logos/karma.svg" alt="karma" />
     <img width="30" height="30" src="https://webpack.js.org/assets/icon-square-big.svg" alt="webpack">
     karma-webpack-livereload
   </h1>
