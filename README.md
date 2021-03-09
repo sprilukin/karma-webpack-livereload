@@ -1,7 +1,24 @@
-![lint](https://github.com/sprilukin/karma-webpack-livereload/actions/workflows/lint.yml/badge.svg)
+<div align="center">
+  <a href="https://www.npmjs.com/package/dotenv-webpack" target="_blank">
+    <img alt="npm" src="https://img.shields.io/npm/v/karma-webpack-livereload.svg?maxAge=0&style=flat" />
+  </a>
+  <a href="https://github.com/sprilukin/karma-webpack-livereload/actions/workflows/lint.yml" target="_blank">
+    <img alt="Lint" src="https://github.com/sprilukin/karma-webpack-livereload/actions/workflows/lint.yml/badge.svg" />
+  </a>
+  <a href="https://david-dm.org/sprilukin/karma-webpack-livereload" target="_blank">
+    <img alt="Dependency Status" src="https://david-dm.org/sprilukin/karma-webpack-livereload.svg" />
+  </a>
+  <a href="https://david-dm.org/sprilukin/karma-webpack-livereload?type=dev" target="_blank">
+    <img alt="devDependency Status" src="https://david-dm.org/sprilukin/karma-webpack-livereload/dev-status.svg" />
+  </a>
 
-# Karma Webpack Livereload
-Livereload extension for `karma-webpack` which is useful for different html reporters like `karma-jasmine-html-reporter`.
+  <h1>
+    <img width="35" height="35" style="padding-top: 7px" src="https://worldvectorlogo.com/logos/karma.svg" alt="karma" />
+    <img width="30" height="30" src="https://webpack.js.org/assets/icon-square-big.svg" alt="webpack">
+    karma-webpack-livereload
+  </h1>
+  <p>Livereload extension for <code>karma-webpack 5.x.x</code> plugin which is useful for different html reporters like <code>karma-jasmine-html-reporter</code></p>
+</div>
 
 ## Install
 - npm 
